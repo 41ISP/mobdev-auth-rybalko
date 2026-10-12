@@ -5,9 +5,11 @@
       "content": "fdsf",
       "userId": 1,
       "username": "pasha",
-      "likes": 0,
+      "likes": 1,
       "reports": 0,
-      "likedBy": [],
+      "likedBy": [
+        2
+      ],
       "reportedBy": [],
       "createdAt": "2025-10-07T16:45:52.058Z"
     },
@@ -21,6 +23,21 @@
       "likedBy": [],
       "reportedBy": [],
       "createdAt": "2025-10-07T16:48:09.503Z"
+    },
+    {
+      "id": 3,
+      "content": "123123",
+      "userId": 2,
+      "username": "123123",
+      "likes": 1,
+      "reports": 1,
+      "likedBy": [
+        2
+      ],
+      "reportedBy": [
+        2
+      ],
+      "createdAt": "2026-10-12T04:36:45.488Z"
     }
   ],
   "users": [
@@ -30,6 +47,13 @@
       "email": "pasha@example.com",
       "password": "$2b$10$h92e990XlgD1hreAWfLzKuWrwWgP9j8IWJRQPn72u3MJZTt3yLWRC",
       "createdAt": "2025-10-07T16:22:34.688Z"
+    },
+    {
+      "id": 2,
+      "username": "123123",
+      "email": "123123@123",
+      "password": "$2b$10$VZHUQs9ADtlG8II8CnS8VeGaisKT5MvkNMhmDwdioYuFVzf28Nhga",
+      "createdAt": "2026-10-12T04:36:34.373Z"
     }
   ]
 }
